@@ -28,6 +28,7 @@ inquirer
     ])
     .then(({ firstName, location, bio, linkedin, github }) => {
         // Save user's response in a string
-        
+        const linkedinURL = `https://www.linkedin.com/in/${linkedin}`;
+        const githubURL = `https://www.github.com/${github}`;
 
     })
